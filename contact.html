@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Obsitu - A front-end enginner based in USA"
+    />
+    <title>Contact Obsitu - Obsitu Rabu</title>
     <title>Document</title>
 
     <link
@@ -24,6 +29,36 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Obsitu logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Obsitu logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Obsitu"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Obsitu's Work"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Obsitu "> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -43,5 +78,59 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Obsitu"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:obsitu@gmail.com"
+          class="email-link"
+          title="Email Obsitu"
+        >
+          obsitu@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/obsitu"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/obsitu"
+          target="_blank"
+          title="Instagarm Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.twiiter.com/obsitu"
+          target="_blank"
+          title="Twitter Profile"
+          ><i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌🏾 This project was coded by obsitu, and it is
+        <a href="https://github.com/orabuu/Porfolio--projecthw" target="_blank">
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
